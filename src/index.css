@@ -1,0 +1,18 @@
+body {
+
+  background-color: hsl(147, 50%, 47%);
+  align-items: center
+}
+
+.Clock {
+
+  color: hsl(103, 0%, 0%);
+  text-align: center;
+  font-size: 50px;
+  font-style: italic;
+  font-weight: bold;
+  font-family: "Sofia", sans-serif;
+  border: 15px solid green;
+  background-color: yellow;
+
+}
