@@ -143,7 +143,7 @@ export default function Clock() {
 
 
   return (
-    <div>
+    <div className="Option">
       <form>
          <select value={country} onChange={handleChange}>
            <option value="">Select a Country</option>
@@ -157,6 +157,13 @@ export default function Clock() {
 
       <div className="Clock">
          <span>{fetchTime()}</span>
+      </div>
+
+      <div>
+      
+         <h1 className="Hi">Hello there!</h1>
+         <h2 className="Intro">My name is Jobayer Khan and I am 20 years old. I go to Queen Mary University of London to study Computer Systems Engineering!</h2>
+         <h1 className="Clk">This is my clock app. All you need to do is select any random country and you get their respective live times immediately.</h1>
       </div>
     </div>
   );
