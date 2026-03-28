@@ -2,6 +2,7 @@ body {
 
   background-color: hsl(147, 50%, 47%);
   align-items: center
+
 }
 
 .Clock {
@@ -14,5 +15,38 @@ body {
   font-family: "Sofia", sans-serif;
   border: 15px solid green;
   background-color: yellow;
+  border-radius: 70px;
 
+}
+
+.Option select{
+
+ color: white;
+ background-color: blue; 
+ font-weight: bold;
+ border-radius: 40px
+}
+
+.Hi {
+
+   color: indigo;
+   background-color: white; 
+   font-weight: bold;
+   border-radius: 80px  
+}
+
+.Intro {
+
+   color: indigo;
+   background-color: yellow; 
+   font-weight: bold;
+   border-radius: 20px  
+}
+
+.Clk {
+
+   color: indigo;
+   background-color:hsl(0, 25%, 50%); 
+   font-weight: bold;
+    
 }
