@@ -59,5 +59,6 @@ body {
    background-color:hsl(0, 25%, 50%); 
    font-weight: bold;
    border: 15px solid blue;
+   border-radius: 40px
     
 }
