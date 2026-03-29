@@ -8,7 +8,7 @@ This is the clock app that I have built with my own hands using react and vite a
 - Then, you extract the project folder
 - After this, go to terminal (if using windows, use windows powershell)
 
-- Type on the terminal each in order:
+- Type on the terminal each in order(after typing each, press enter before typing the next one):
 
     dir
   
@@ -17,6 +17,8 @@ This is the clock app that I have built with my own hands using react and vite a
     dir
 
     npm install
+
+  
     npm run dev
 
 - After typing dir for the second time on the terminal, it should say package.json there meaning that the downloaded project is there already.
