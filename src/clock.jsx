@@ -128,11 +128,12 @@ export default function Clock() {
     const zone = timeZones[country];
 
     return new Intl.DateTimeFormat("en-GB", {
-      timeZone: zone,
-      hour: "2-digit",
-      minute: "2-digit",
-      second: "2-digit",
-      hour12: false,
+    
+       timeZone: zone,
+        hour: "2-digit",
+        minute: "2-digit",
+        second: "2-digit",
+        hour12: false,
 
       day: "2-digit",
       month: "2-digit",
@@ -140,7 +141,6 @@ export default function Clock() {
     }).format(time);
     
   }
-
 
   return (
     <div className="Option">
