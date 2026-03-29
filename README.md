@@ -11,7 +11,9 @@ This is the clock app that I have built with my own hands using react and vite a
 - Type on the terminal each in order:
 
     dir
+  
     cd .\Clock-App-main
+  
     dir
 
     npm install
