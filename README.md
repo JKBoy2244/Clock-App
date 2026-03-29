@@ -10,16 +10,15 @@ This is the clock app that I have built with my own hands using react and vite a
 
 - Type on the terminal each in order(after typing each, press enter before typing the next one):
 
-    dir
+  dir
   
-    cd .\Clock-App-main
+  cd .\Clock-App-main
   
-    dir
+  dir
 
-    npm install
-
-  
-    npm run dev
+  npm install
+ 
+  npm run dev
 
 - After typing dir for the second time on the terminal, it should say package.json there meaning that the downloaded project is there already.
 - After typing npm run dev, it should show a link on the terminal, http://localhost:5173/ so all you need to do is copy and paste this link to the browser and the app is there
