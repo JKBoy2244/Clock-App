@@ -107,10 +107,15 @@ export default function Clock() {
   
   const [country, setCountry] = useState("United Kingdom");
   const [time, setTime] = useState(new Date());
+  const [prayers, setPrayers] = useState({});
 
   const handleChange = (e) => {
     setCountry(e.target.value);
   }
+
+  useEffect(() => {
+  if (country) fetch(`https://api.aladhan.com/v1/timingsByAddress?address=${country}`).then(r => r.json()).then(d => setPrayers(d.data.timings));
+  }, [country]);
 
   useEffect(() => {
     const Valid = setInterval(() => {
@@ -156,14 +161,19 @@ export default function Clock() {
       </form>
 
       <div className="Clock">
-         <span>{fetchTime()}</span>
+         <span className="Time">{fetchTime()}</span>
+         <li className="Fajr">Fajr - {prayers.Fajr}</li>
+         <li className="Dhuhr">Dhuhr - {prayers.Dhuhr}</li>
+         <li className="Asr">Asr - {prayers.Asr}</li>
+         <li className="Maghrib">Maghrib - {prayers.Maghrib}</li>
+         <li className="Isha">Isha - {prayers.Isha}</li>
       </div>
 
       <div>
       
          <h1 className="Hi">Hello there!</h1>
          <h2 className="Intro">My name is Jobayer Khan and I am 20 years old. I go to Queen Mary University of London to study Computer Systems Engineering!</h2>
-         <h1 className="Clk">This is my clock app. All you need to do is select any random country and you get their respective live times immediately.</h1>
+         <h1 className="Clk">This is my clock app. All you need to do is select any random country and you get their respective live times and each 5 live prayer times immediately.</h1>
       </div>
     </div>
   );
