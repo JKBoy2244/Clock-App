@@ -1,4 +1,4 @@
-# Clock-App
+# Prayer-Time-Clock-App
 
 This is the clock app that I have built with my own hands using react and vite and the purpose of the app is it displays all 195 countries as well as their continents which I used the internet as an assistance to accumulate together in one huge array. This app allows the user to pick any country they want to find the time and once they select a country, the time and date will be displayed in literally 1 millisecond. This can make the user's lives easier when using the app as they wouldn't have to search up the internet the current time in another country which could potentially take some time (well, still quick but potentially internet problems etc). Using this app, the user can find the actual time of a different country in 1 sec when finding a random country. All countries are listed from the world with nothing missing. Also, at the same time, it lists all the 5 prayers time fajr, dhuhr, asr, maghrib and isha instantly.
 
