@@ -59,6 +59,43 @@ body {
    background-color:hsl(0, 25%, 50%); 
    font-weight: bold;
    border: 15px solid blue;
-   border-radius: 40px
+   border-radius: 20px
     
+}
+
+.Time {
+
+   background-color: brown;
+   color: white;
+   
+}
+
+.Fajr {
+
+   background-color: blue;
+   color: white;
+}
+
+.Dhuhr {
+
+   background-color: orange;
+   color: white;
+}
+
+.Asr {
+
+   background-color: indigo;
+   color: white;
+}
+
+.Maghrib {
+
+   background-color: grey;
+   color: white;
+}
+
+.Isha {
+
+   background-color: black;
+   color: white;
 }
