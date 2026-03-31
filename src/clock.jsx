@@ -221,7 +221,7 @@ const cities = {
   "Uganda": ["Kampala", "Gulu", "Mbarara", "Jinja", "Mbale"],
   "Ukraine": ["Kyiv", "Kharkiv", "Odesa", "Dnipro", "Lviv"],
   "United Arab Emirates": ["Dubai", "Abu Dhabi", "Sharjah", "Al Ain", "Ajman"],
-  "United Kingdom": ["London", "Birmingham", "Manchester", "Glasgow", "Liverpool"],
+  "United Kingdom": ["London", "Birmingham", "Manchester", "Glasgow", "Liverpool", "Bradford" , "Southampton", "Leicester", "Aberdeen"],
   "United States of America": ["New York City", "Los Angeles", "Chicago", "Houston", "Phoenix"],
   "Uruguay": ["Montevideo", "Salto", "Ciudad de la Costa", "Paysandu", "Las Piedras"],
   "Uzbekistan": ["Tashkent", "Samarkand", "Namangan", "Andijan", "Bukhara"],
