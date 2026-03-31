@@ -305,7 +305,7 @@ export default function Clock() {
   
   const [country, setCountry] = useState("United Kingdom");
   const [time, setTime] = useState(new Date());
-  const [city, setCity] = useState({})
+  const [city, setCity] = useState("")
   const [prayers, setPrayers] = useState({});
 
   const handleChange = (e) => {
@@ -313,13 +313,13 @@ export default function Clock() {
     setCity();
   }
 
-  const handleChange = (e) => {
+  const handleCityChange = (e) => {
     setCity(e.target.value);
   }
 
   useEffect(() => {
   if (country) fetch(`https://api.aladhan.com/v1/timingsByAddress?address=${country}`).then(r => r.json()).then(d => setPrayers(d.data.timings));
-  }, [country]);
+  }, [country, city]);
 
   useEffect(() => {
     const Valid = setInterval(() => {
@@ -362,6 +362,16 @@ export default function Clock() {
              </option>
            ))}
          </select>
+        {cities[country] && (
+           <select value={city || ""} onChange={handleCityChange}>
+             <option value="">Select a City</option>
+             {cities[country].map((c) => (
+               <option key={c} value={c}>
+                 {c}
+               </option>
+             ))}
+           </select>
+         )}
       </form>
 
       <div className="Clock">
