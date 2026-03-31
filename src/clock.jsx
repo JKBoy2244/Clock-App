@@ -318,7 +318,7 @@ export default function Clock() {
   }
 
   useEffect(() => {
-  if (country) fetch(`https://api.aladhan.com/v1/timingsByAddress?address=${country}`).then(r => r.json()).then(d => setPrayers(d.data.timings));
+  if (country) fetch(`https://api.aladhan.com/v1/timingsByAddress?address=${encodeURIComponent(city ? `${city}, ${country}` : country)}`).then(r => r.json()).then(d => setPrayers(d.data.timings));
   }, [country, city]);
 
   useEffect(() => {
