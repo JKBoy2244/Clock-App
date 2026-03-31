@@ -310,7 +310,7 @@ export default function Clock() {
 
   const handleChange = (e) => {
     setCountry(e.target.value);
-    setCity();
+    setCity("");
   }
 
   const handleCityChange = (e) => {
