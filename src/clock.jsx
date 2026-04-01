@@ -103,5 +103,5 @@ export default function Clock() {
          <h1 className="Clk">This is my prayer time clock app. All you need to do is select any random country and you get their respective live times and each 5 live prayer times immediately.</h1>
       </div>
     </div>
-  );
+  )
 }
