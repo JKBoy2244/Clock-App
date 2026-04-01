@@ -377,7 +377,7 @@ const timeZones = {
 };
 
 export default function Clock() {
-  
+
   const [country, setCountry] = useState("United Kingdom");
   const [time, setTime] = useState(new Date());
   const [city, setCity] = useState("")
@@ -412,7 +412,7 @@ export default function Clock() {
     const zone = timeZones[country];
 
     return new Intl.DateTimeFormat("en-GB", {
-    
+
        timeZone: zone,
         hour: "2-digit",
         minute: "2-digit",
@@ -423,7 +423,7 @@ export default function Clock() {
       month: "2-digit",
       year: "numeric"
     }).format(time);
-    
+
   }
 
   return (
@@ -450,6 +450,7 @@ export default function Clock() {
       </form>
 
       <div className="Clock">
+         <li className="Country">{city} , {country}</li>
          <span className="Time">{fetchTime()}</span>
          <li className="Fajr">Fajr - {prayers.Fajr}</li>
          <li className="Dhuhr">Dhuhr - {prayers.Dhuhr}</li>
@@ -459,7 +460,7 @@ export default function Clock() {
       </div>
 
       <div>
-      
+
          <h1 className="Hi">Hello there!</h1>
          <h2 className="Intro">My name is Jobayer Khan and I am 20 years old. I go to Queen Mary University of London to study Computer Systems Engineering!</h2>
          <h1 className="Clk">This is my prayer time clock app. All you need to do is select any random country and you get their respective live times and each 5 live prayer times immediately.</h1>
