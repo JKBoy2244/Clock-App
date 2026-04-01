@@ -40,6 +40,8 @@ export default function Clock() {
 
   function fetchTime() {
 
+  try  {
+    
     if (!country) return "undefined:undefined:undefined"
     const zone = selectedTimeZone || timeZones[country];
 
@@ -56,6 +58,9 @@ export default function Clock() {
       year: "numeric"
     }).format(time);
 
+  } catch (error) {
+
+    console.log("Hmmmm, can't display page, sorry!");
   }
 
   return (
