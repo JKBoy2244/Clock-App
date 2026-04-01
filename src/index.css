@@ -16,9 +16,7 @@ body {
   border: 15px solid green;
   background-color: yellow;
   border-radius: 30px;
-  border-style: dotted;
-  border-color: red;
-
+  
 }
 
 .Option select{
