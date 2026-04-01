@@ -61,6 +61,7 @@ export default function Clock(props) {
   } catch (error) {
 
     console.log("Hmmmm, can't display page, sorry!");
+    alert("404 error");
 
    }
   }
