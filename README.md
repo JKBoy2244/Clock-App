@@ -26,7 +26,6 @@ After that, it will give a link like http://localhost:5173/ or http://localhost:
 
 (Warning, if you close the terminal however or if the terminal isn't open or if the terminal is open but you haven't executed the steps fully, the link will not work).
 
-- After typing dir for the second time on the terminal, it should say package.json there meaning that the downloaded project is there already.
 - After typing npm run dev, it should show a link on the terminal, http://localhost:5173/ so all you need to do is copy and paste this link to the browser and the app is there
 - Typing npm install allows the packages to be installed first
 - Also for me, I saved and extracted as Clock-App-main but whatever you save it as you that exact folder name. E.g if you extracted and saved as folder-name, then type cd .\folder-name (2 consecutive times but don't forget the .\ both)
