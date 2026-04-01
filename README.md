@@ -38,4 +38,6 @@ After that, it will give a link like http://localhost:5173/ so don't close the t
 
 - This app is extremely efficient to use as it has all 195 countries and all respective cities of each country particularly stored and you can search any country up in literally one second or switch from country to country and just within 1 second, it will display all times and all live times at the same time immediately and accurately.
 
+- I feel this app is also much easier to use because when using the app, everything is in one place so all the cities and countries too. All you have to do is just select which takes a few seconds and everything shows up straight away (live time with live date and also 5 prayer times for the live date).
+
     
