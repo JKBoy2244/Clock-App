@@ -1,6 +1,5 @@
 import Clock from "./clock";
 import "./index.css";
-import sea from './assets/images/sea.png';
 
 
 export default function App() {
