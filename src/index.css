@@ -104,4 +104,6 @@ body {
 
    background-color: #3c3c3c;
    color: white;
+   border-style: dotted;
+   border-color: blue;
 }
