@@ -23,7 +23,7 @@ body {
   font-style: italic;
   font-weight: bold;
   font-family: "Sofia", sans-serif;
-  border: 15px solid green;
+  border: 15px solid hsl(179, 100%, 50%);
   background-color: yellow;
   border-radius: 30px;
   
