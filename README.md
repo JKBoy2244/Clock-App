@@ -1,6 +1,6 @@
 # Prayer-Time-Clock-App
 
-This is the clock app that I have built with my own hands using react and vite and the purpose of the app is it displays all 195 countries as well as their continents which I used the internet as an assistance to accumulate together in one huge array. This app allows the user to pick any country they want to find the time and once they select a country, the time and date will be displayed in literally 1 millisecond. This can make the user's lives easier when using the app as they wouldn't have to search up the internet the current time in another country which could potentially take some time (well, still quick but potentially internet problems etc). Using this app, the user can find the actual time of a different country in 1 sec when finding a random country. All countries are listed from the world with nothing missing. Also, at the same time, it lists all the 5 prayers time fajr, dhuhr, asr, maghrib and isha instantly.
+This is the clock app that I have built with my own hands using react and vite and the purpose of the app is it displays all 195 countries as well as each of their respective cities which I used the internet as an assistance to accumulate together in one huge array. This app allows the user to pick any country plus city they want to find the time and once they select a country (and the city of that country), the time and date will be displayed in literally 1 second. This can make the user's lives easier when using the app as they wouldn't have to search up the internet the current time in another country/city which could potentially take some time (well, still quick but potentially internet problems etc). Using this app, the user can find the actual time of a different country in 1 sec when finding a random country. All countries are listed from the world with nothing missing. Also, at the same time, it lists all the 5 prayers time fajr, dhuhr, asr, maghrib and isha instantly for each particular cities of a particular country as countries are made up of cities, each city within the same country may have slightly different prayer times by some minutes difference.
 
 ## How to run the app
 
@@ -32,6 +32,6 @@ After that, it will give a link like http://localhost:5173/ so don't close the t
 
 # Benefits
 
-- This app is extremely efficient to use as it has all 195 countries stored under 1 database and you can search any country up in literally one second or switch from country to country and just within 1 second, it will display all times and all live times at the same time immediately.
+- This app is extremely efficient to use as it has all 195 countries and all respective cities of each country particularly stored and you can search any country up in literally one second or switch from country to country and just within 1 second, it will display all times and all live times at the same time immediately and accurately.
 
     
