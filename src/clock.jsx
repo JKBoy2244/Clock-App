@@ -101,9 +101,10 @@ export default function Clock() {
 
       <div>
 
-         <h1 className="Hi">Hello there!</h1>
-         <h2 className="Intro">My name is Jobayer Khan and I am 20 years old. I go to Queen Mary University of London to study Computer Systems Engineering!</h2>
-         <h1 className="Clk">This is my prayer time clock app. All you need to do is select any random country and you get their respective live times and each 5 live prayer times immediately.</h1>
+         <h1 className="Hi">{props.intro}</h1>
+         <h2 className="Intro">My name is {props.name} and I am {props.age} years old. I go to {props.university} to study {props.course}!</h2>
+         <h1 className="Clk">This is my prayer time clock app. All you need to do is select any random country and then, also any random city from that particular country. Then, you get their respective live time and live date as well as each {props.number} live prayer times immediately.
+                               from that live date.</h1>
       </div>
     </div>
   )
