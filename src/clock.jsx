@@ -382,6 +382,7 @@ export default function Clock() {
   const [time, setTime] = useState(new Date());
   const [city, setCity] = useState("")
   const [prayers, setPrayers] = useState({});
+  const [selectedTimeZone, setSelectedTimeZone] = useState(timeZones["United Kingdom"]);
 
   const handleChange = (e) => {
     setCountry(e.target.value);
@@ -393,7 +394,10 @@ export default function Clock() {
   }
 
   useEffect(() => {
-  if (country) fetch(`https://api.aladhan.com/v1/timingsByAddress?address=${encodeURIComponent(city ? `${city}, ${country}` : country)}`).then(r => r.json()).then(d => setPrayers(d.data.timings));
+    if (country) fetch(`https://api.aladhan.com/v1/timingsByAddress?address=${encodeURIComponent(city ? `${city}, ${country}` : country)}`).then(r => r.json()).then(d => {
+      setPrayers(d.data.timings);
+      setSelectedTimeZone(d.data.meta.timezone);
+    });
   }, [country, city]);
 
   useEffect(() => {
@@ -409,7 +413,7 @@ export default function Clock() {
   function fetchTime() {
 
     if (!country) return "undefined:undefined:undefined"
-    const zone = timeZones[country];
+    const zone = selectedTimeZone || timeZones[country];
 
     return new Intl.DateTimeFormat("en-GB", {
 
