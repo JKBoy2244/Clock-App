@@ -1,6 +1,6 @@
 import Clock from "./clock";
 import "./index.css";
-import sea from "./assets/images/sea.png";
+import sky from "./assets/images/sky.png";
 
 export default function App() {
   return (
