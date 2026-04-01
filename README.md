@@ -4,6 +4,8 @@ This is the clock app that I have built with my own hands using react and vite a
 
 ## How to run the app
 
+- Note: Make sure that node.js is installed before doing each step as if it isn't, the npm commands won't work
+  
 First, you download or clone the app zip file.
 
 Then, you extract the file through file explorer.
