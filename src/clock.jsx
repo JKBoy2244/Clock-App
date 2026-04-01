@@ -4,7 +4,7 @@ import countries from './countries';
 import cities from './cities';
 import timeZones from './timeZones';
 
-export default function Clock() {
+export default function Clock(props) {
 
   const [country, setCountry] = useState("United Kingdom");
   const [time, setTime] = useState(new Date());
