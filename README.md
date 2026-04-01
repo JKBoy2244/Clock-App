@@ -2,27 +2,27 @@
 
 This is the clock app that I have built with my own hands using react and vite and the purpose of the app is it displays all 195 countries as well as their continents which I used the internet as an assistance to accumulate together in one huge array. This app allows the user to pick any country they want to find the time and once they select a country, the time and date will be displayed in literally 1 millisecond. This can make the user's lives easier when using the app as they wouldn't have to search up the internet the current time in another country which could potentially take some time (well, still quick but potentially internet problems etc). Using this app, the user can find the actual time of a different country in 1 sec when finding a random country. All countries are listed from the world with nothing missing. Also, at the same time, it lists all the 5 prayers time fajr, dhuhr, asr, maghrib and isha instantly.
 
-# How to run the app
+## How to run the app
 
-- First, download or clone this project on github (it will show download zip so click that).
-- Then, you extract the project folder
-- After this, go to terminal (if using windows, use windows powershell)
+First, you download or clone the app zip file.
 
-- Type on the terminal each in order(after typing each, press enter before typing the next one):
+Then, you extract the file through file explorer.
 
-  dir
+Open terminal and type exactly: 
+
+     cd ~/Downloads/folder-name/folder-name 
+     
+(whatever you saved as when extracting the file)
+
+Then, type these 2 words in order:
+
+    npm install
   
-  cd downloads
+    npm run dev
 
-  cd .\Clock-App-main
+After that, it will give a link like http://localhost:5173/ so don't close the terminal but copy and paste the link to web browser and the app should be there.
 
-  cd .\Clock-App-main
-  
-  dir 
-
-  npm install
- 
-  npm run dev
+(Warning, if you close the terminal however or if the terminal isn't open or if the terminal is open but you haven't executed the steps fully, the link will not work).
 
 - After typing dir for the second time on the terminal, it should say package.json there meaning that the downloaded project is there already.
 - After typing npm run dev, it should show a link on the terminal, http://localhost:5173/ so all you need to do is copy and paste this link to the browser and the app is there
