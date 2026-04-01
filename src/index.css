@@ -74,30 +74,40 @@ body {
 
    background-color: blue;
    color: white;
+  border-style: dotted;
+  border-color: hsl(0, 100%, 50%);
 }
 
 .Dhuhr {
 
    background-color: orange;
    color: white;
+  border-style: solid;
+  border-color: hsl(300, 76%, 72%);
 }
 
 .Asr {
 
    background-color: indigo;
    color: white;
+  border-style: dotted;
+  border-color: hsl(39, 100%, 50%);
 }
 
 .Maghrib {
 
    background-color: grey;
    color: white;
+   border-style: solid;
+   border-color: hsl(286, 98%, 54%);
 }
 
 .Isha {
 
    background-color: black;
    color: white;
+   border-style: dotted;
+   border-color: hsl(0, 0%, 73%);
 }
 
 .Country {
