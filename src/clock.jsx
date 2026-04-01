@@ -61,9 +61,11 @@ export default function Clock() {
   } catch (error) {
 
     console.log("Hmmmm, can't display page, sorry!");
-    return "";
+
+   }
   }
 
+  
   return (
     <div className="Option">
       <form>
