@@ -3,6 +3,7 @@ import './index.css'
 import countries from './countries';
 import cities from './cities';
 import timeZones from './timeZones';
+import { Country, City }  from 'country-state-city';
 
 export default function Clock() {
 
